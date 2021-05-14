@@ -8,8 +8,7 @@ namespace Utils
         {
             return customer1.firstName == customer2.firstName &&
                 customer1.lastName == customer2.lastName &&
-                customer1.age == customer2.age &&
-                AddressUtils.CompareAddess(customer1.address, customer2.address) &&
+                AddressUtils.CompareAddress(customer1.address, customer2.address) &&
                 customer1.phoneNumber == customer2.phoneNumber;
         }
     }
